@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: roboto;
+}
+
+@layer components{
+    .nav-link{
+        @apply hover:text-[#FF7500] opacity-80 active:opacity-60 font-medium text-[13px] leading-4 tracking-[1px] text-black border-b-[3px] pb-1 pt-1 border-transparent
+    }
+    .active{
+        @apply border-[#FF7500]
+    }
+
+    .main-link{
+        @apply hover:opacity-80 active:opacity-60 font-bold inline-block text-[13px] leading-4 tracking-[0.5px] text-white px-6 py-3 bg-[#FF7500] rounded-md
+    }
+    .line{
+        @apply border-none w-[80px] h-1 bg-[#FF7500] block
+    }
+    .text{
+        @apply text-[16px] leading-normal text-black
+    }
+    .card-img{
+        @apply  inline-block w-24 h-24 flex justify-center items-center rounded-full bg-[rgba(255,117,0,0.2)];
+    }
+}
