@@ -718,10 +718,6 @@ video {
   max-width: 340px;
 }
 
-.max-w-\[30px\] {
-  max-width: 30px;
-}
-
 .items-center {
   align-items: center;
 }

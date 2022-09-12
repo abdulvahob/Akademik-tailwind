@@ -18,7 +18,7 @@ body{
         @apply hover:opacity-80 active:opacity-60 font-bold inline-block text-[13px] leading-4 tracking-[0.5px] text-white px-6 py-3 bg-[#FF7500] rounded-md
     }
     .line{
-        @apply border-none w-[80px] h-1 bg-[#FF7500] block
+        @apply border-none w-[80px] h-1 bg-orange block
     }
     .text{
         @apply text-[16px] leading-normal text-black
